@@ -168,12 +168,12 @@ span {
         left:0;            
      }
 .titulonueve{ 
-align-items: center;
-display: flex;
-height: 100%;
-width: 25%;
-margin: 0;
-place-content: center;}
+    align-items: CENTER;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    place-content: FLEX-START;}
 
 .titulonueve a { text-decoration: none;    
 color: #e7e8e8;
