@@ -1,0 +1,493 @@
+body {width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      background-color: #000000;}
+@font-face{ font-family: zeta;
+            src: url(assets/fonts/Menuzeta.ttf);}
+@font-face {font-family: nueve;
+            src: url(assets/fonts/Logoz.ttf);}
+@font-face {font-family: nums;
+            src: url(assets/fonts/nums.ttf);}
+.contenedor {
+             width: 100%;
+             height: 100%;
+             }
+.menu-button:hover {color:#431c8e ;}
+
+.infoprincipal { 
+                 width: 93%;
+                 height: 93VH; 
+                 
+                }
+.barrasup { width: 99.96%;
+            height: 13%;
+            background: linear-gradient(90deg, rgba(34,39,42,1) 0%, rgba(18,22,24,1) 100%);}
+
+ .slider{   PADDING: 0;
+      height: 87%;
+      width: 100%;
+      margin: 0;
+      overflow: hidden;
+          } 
+
+.slider ul{MARGIN: 0;
+      height: 100%;
+      display: flex;
+      padding: 0;
+      width: 400%;
+      animation: cambio 20s infinite alternate;
+      animation-timing-function: ease-in;
+          }
+             
+          
+.slider li{ 
+            width:100%;
+            list-style:none;
+          }
+            
+.slider img{object-fit: cover;
+            height: 100%;
+            width:100%;}
+span{
+     color: aliceblue;
+     position: absolute;
+}
+
+
+
+@keyframes cambio{
+            8%{margin-left:0;}
+            20%{margin-left:0;}
+            25%{margin-left:-100%;}
+            45%{margin-left:-100%;}
+            50% {margin-left:-200%;}
+            70%{margin-left:-200%;}
+            75%{margin-left:-300%;}
+            100%{margin-left:-300%;}}
+
+nav{
+    BORDER-LEFT: 2.1PX SOLID #0000004f;
+    position: fixed;
+    z-index: 1050;
+    right: 0;
+    background: linear-gradient(0deg, rgba(34,39,42,1) 0%, rgba(18,22,24,1) 100%);
+    width: 7%;
+    height: 100%;
+    font-family: zeta;}
+  
+
+
+ .menu-button{
+    background: linear-gradient(187deg, rgba(34,39,42,1) 0%, rgba(18,22,24,1) 100%);
+    width: 100%;
+    HEIGHT: 13%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    cursor:pointer;
+    color: #596a71;
+   
+}
+
+
+
+.fa-solid { font-size: 1.5EM;
+            align-self: center;
+}
+
+.menu-toggle{width: 100%;
+         height: 10%;
+        display:none;
+}
+
+.toggle{
+    PADDING: 0;
+    display: flex;
+    position: fixed;
+    width: 93.5%;
+    height: 100.9vh;
+    top: -2.6%;
+    left: 120%;
+    text-align: center;
+    transition: all .5s;}
+
+.sponsors { 
+    DISPLAY: FLEX;
+    width: 55%;
+    height: 100%;
+    align-items: center;
+    flex-flow: column;
+    JUSTIFY-CONTENT: SPACE-AROUND;
+    BACKGROUND-COLOR: #15191af0}
+
+.sponsorsimg {     
+    PLACE-CONTENT: CENTER;
+    ALIGN-CONTENT: SPACE-AROUND;
+    flex-wrap: wrap;
+    display: FLEX;
+    width: 78%;
+    height: 34%;}
+.sponsorsimg img {
+
+        padding: 2%;
+        WIDTH: 18%;
+        HEIGHT: 30%;
+}
+.nombre9z {   
+    padding-left: 18%;
+    TEXT-ALIGN: LEFT;
+    flex-flow: inherit;
+    width: 70%;    
+    DISPLAY: flex;
+    justify-content: center;}
+
+.nombre9z p {
+    color: white;
+    TEXT-ALIGN: LEFT;
+    width: 70%;
+    font-size: 5rem;
+    FONT-WEIGHT: 900;
+    margin: 0;}
+.nombre9z div {
+    color: white; width: 100%;
+    font-size: 5.4EM;
+    font-weight: bold;}
+
+
+span { 
+    line-height: 1.4;
+    letter-spacing: 0.4em;
+    font-size: 1rem;
+    width: 19%;
+    TEXT-ALIGN: LEFT;
+    HEIGHT: 7.5%;
+    MARGIN-TOP: 1%;
+    COLOR: #5b6971;}
+.menu-toggle:checked ~ .toggle{
+        left:0;            
+     }
+.titulonueve{ 
+align-items: center;
+display: flex;
+height: 100%;
+width: 25%;
+margin: 0;
+place-content: center;}
+
+.titulonueve a { text-decoration: none;    
+color: #e7e8e8;
+FONT-SIZE: 2.2EM;
+font-family: nueve;
+margin: 0;
+TEXT-ALIGN: CENTER;}
+
+.titulonueve a:hover {color: #5712d7;
+                     
+                    }
+
+
+
+.titulosmenu {
+        display: flex;
+        background-color: #0c1011;
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        place-content: center;}
+
+.titulosmenu li{
+    HEIGHT: 100%;
+    color: #5b6971;
+    display: block;
+    line-height: 2.8;}
+
+.titulosmenu li a:hover { color: #431c8e;}
+
+.titulosmenu li a {
+    font-size: 3EM;
+    FONT-WEIGHT: bold;
+    color: #8b9da7;
+    text-decoration: NONE;}
+
+.titulosmenu1 li span {      
+    color: #596a71;
+    WIDTH: 5%;
+    HEIGHT: 3%;
+    TEXT-ALIGN: left;
+    font-weight: bold;
+    FONT-SIZE: x-large;
+    font-family: nums;
+    letter-spacing: 0;}
+
+.titulosmenu1 {
+    text-align: left;
+    display: flex;
+    HEIGHT: 50%;
+    WIDTH: 82%;
+    FLEX-FLOW: COLUMN;
+    justify-content: space-evenly;
+}
+.redes { margin-top: 40%;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 60%;
+    justify-content: space-evenly;}
+
+.redes a i {
+    DISPLAY: flex;
+    font-size: 1.5EM;
+    align-items: center;
+    color: #596a72;
+    PLACE-CONTENT: CENTER;
+    width: 100%;
+    height: 100%;}
+
+.redes a i:hover {color: white;}
+
+
+.redes a:hover {background-color: #5712d7; 
+                color: white;
+                }
+.redes a {     
+    display: inline-flex;
+    width: 100%;
+    height: 15%;
+    ALIGN-ITEMS: CENTER;
+    place-content: center;
+    text-decoration: none;}
+
+.info-flex {width: 94%;
+            height: 50VH; 
+            }
+.info-eventos {width: 100%;
+               height: 100%; 
+               display: flex;}
+.cards { width: 25%;
+         height: 90%;
+         background-color: #ffffff;
+         border: #000000 solid 1PX;}
+
+
+/*///////////////////////card//////////////////////////////////////*/
+.grid {
+	position: relative;
+	margin: 0 auto;
+    min-width: 100%;
+	max-width: 100%;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    WIDTH: 33.33%;
+    HEIGHT: 100%;
+    background: #000000;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 900;
+}
+
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Individual effects */
+
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+
+figure.effect-lily img {
+	max-width: none;
+	width: -webkit-calc(100% + 50px);
+	width: calc(100% + 50px);
+	opacity: 0.2;
+	-webkit-transition: opacity 0.60S, transform 0.50s;
+	transition: opacity 0.60S, transform 0.50s;
+	-webkit-transform: translate3d(-5px,0,0);
+	transform: translate3d(-5px,0,0);
+	-moz-transition: opacity 0.60S, transform 0.50s;
+	-ms-transition: opacity 0.60S, transform 0.50s;
+	-o-transition: opacity 0.60S, transform 0.50s;
+}
+.effect-lily figcaption div span {
+    WIDTH: 35%;
+    COLOR: WHITE;
+    font-weight: bold;
+    font-size: medium;
+    width: 100%;
+    transform: translate(0, -8.8em);
+    -webkit-transform: translate(0, -8.8em);
+    -moz-transform: translate(0, -8.8em);
+    -ms-transform: translate(0, -8.8em);
+    -o-transform: translate(0, -8.8em);
+}
+
+figure.effect-lily figcaption {
+	text-align: left;
+}
+
+figure.effect-lily figcaption > div {
+    font-family: zeta;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2em;
+	width: 100%;
+	height: 50%;
+}
+
+figure.effect-lily h2,
+figure.effect-lily p {
+	-webkit-transform: translate3d(0,40px,0);
+	transform: translate3d(0,40px,0);
+}
+
+figure.effect-lily h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-lily p {
+	color: rgba(255,255,255,0.8);
+    opacity: 0;
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+	transition: opacity 0.2s, transform 0.35s;
+}
+
+figure.effect-lily:hover img {
+	opacity: 0.4;
+}
+
+.effect-lily figcaption div img   
+   {WIDTH: 33%;
+    DISPLAY: inline-block;
+    HEIGHT: 55px;
+    TRANSFORM: TRANSLATE(490%,-70%);}
+
+figure.effect-lily:hover p {opacity: 1;}
+
+
+figure.effect-lily:hover h2,
+figure.effect-lily:hover p {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-lily:hover p {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.02s;
+	-webkit-transition-duration: 0.35s;
+	transition-duration: 0.35s;
+}
+
+footer {width: 100%;
+    height: 20VH;
+    background-color: #0c1011;
+    display: flex;
+    ALIGN-ITEMS: CENTER;}
+.pie9z {  
+    align-items: center;
+    width: 13%;
+    height: 30%;
+    display: flex;}
+
+.pie9z IMG {width: 40%;
+    height: 100%;
+    transform: TRANSLATE(8.3px,-7.6px);}
+
+.pie9z h2 {font-family: nueve;
+     width: 100%;
+    height: 100%;
+    color: white;}
+.pielinks {
+    justify-content: space-evenly;
+    width: 65%;
+    height: 30%;
+    display: flex;
+    FLEX-FLOW: row;}
+.pielinks a {color: #596a72;
+             font-family: zeta;
+             display: flex;
+             text-decoration: none;
+            font-weight: bold;}
+.pielinks a:hover {color: whITE;}
+
+.piecreador{    
+    flex-flow: row;
+    DISPLAY: flex;
+    WIDTH: 15%;
+    HEIGHT: 30%;
+    TEXT-ALIGN: CENTER;}
+
+.piecreador p { 
+    color: #596a72;
+    font-family: zeta;   
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    font-weight: bold;}
+
+.piecreador p a {font-family: 'Fredoka One', cursive; 
+                 text-decoration: none;
+                 color: white;}
+.piecreador p a:hover {color: #FF009C;}

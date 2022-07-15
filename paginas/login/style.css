@@ -1,0 +1,175 @@
+body { width: 100%; 
+       height: 100vh;
+       background-color:black;  
+       font-family: zeta;
+       BACKGROUND-POSITION-X: RIGHT;
+       margin: 0;
+       padding: 0;
+      
+    }
+@font-face{ font-family: zeta;
+        src: url(../../assets/fonts/Menuzeta.ttf);}
+
+
+
+
+
+.contdelogin1 { display: flex;
+                width: 100%;
+                height: 100%;
+                PLACE-CONTENT: CENTER;
+                align-items: center;}
+
+.contdelogin {
+               width: 100%;
+               height: 100%;
+               display: flex;
+              
+              
+}
+.imputsydemas {width: 100%;
+               height: 65%;}
+
+.contdeloginyfran { 
+    width: 100%;
+    height: 100%;
+    display: flex;}
+
+.contdebienvenidaylogin{background-color: #15191c;
+                        Text-align: center;
+                        display: flex;  
+                        flex-direction: column;
+                        width: 40%;
+                        height: 100%;
+                        justify-content: space-evenly;}
+
+.contdebienvenida h2 {    
+    color: #e7919b;
+    FONT-SIZE: 35PX;}
+.contdebienvenida p {
+    color: #a4a4a4;
+    FONT-SIZE: small;}
+.contdebienvenida a {COLOR: #7788b4;
+    TEXT-DECORATION: NONE;
+    FONT-SIZE: 15PX;}
+.contdebienvenida a:hover {color: #dd00e5;}
+.franyicons {JUSTIFY-CONTENT: CENTER;
+    ALIGN-ITEMS: CENTER;
+    FLEX-FLOW: ROW;
+    DISPLAY: flex;
+    width: 100%;
+    height: 100%;}
+.contdeinput1 { width: 100%;
+                height: 30%;}
+.contdeinput {  padding-left: 6.5%; 
+    display: flex;
+    FLEX-FLOW: column;
+    text-align: left;
+    width: 100%;
+    height: 100%;}
+.logo {width: 100%;
+       height: 20%;}
+
+.logo img { width: 40%;
+            height: 100%;}
+
+label {color: #a4a4a4;
+    font-weight: 400; 
+    font-size: 20PX;}
+input{ border: 2px solid #e7919b;
+    width: 85%;
+    height: 20%;
+    border-radius: 20px;
+    background: 0;
+    }
+::placeholder { text-align: center;
+    color: #a4a4a4;
+    font-size: 15px;}
+button{HEIGHT: 25%;
+    WIDTH: 85%;
+    BORDER-RADIUS: 200PX;
+    BACKGROUND: 0;
+    border: 2px solid #e7919b;
+    align-self: center;}
+
+button a {    color: #a4a4a4;
+    TEXT-DECORATION: NONE;
+    FONT-SIZE: x-large;
+    font-weight: 700;}
+button a:hover {color: #7710a7;}
+button:hover {background-color: #6d08630d;}
+
+.awsome {width: 100%;
+    height: 10%;
+    DISPLAY: FLEX;
+    align-items: center;
+    FLEX-FLOW: row;
+    PLACE-CONTENT: SPACE-EVENLY;
+          }
+.awsome a {text-decoration: none;
+           outline: none;
+           color: #7788b4;
+}
+.awsome a i { font-size: 1.4EM;}
+
+.awsome a i:hover { font-size: 1.6EM;
+                    color: #7710a7;}
+.fran {
+    WIDTH: 100%;
+    HEIGHT: 100%;}
+.fran img {   
+  
+    width: 100%;
+    height: 100%;
+}
+
+footer {align-items: center;
+    DISPLAY: FLEX;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    font-weight: bold;
+        }
+footer p
+{color: #596a72;
+font-family: zeta;
+width: 100%;
+margin: 0;
+height: 40%;
+font-weight: bold;}
+
+footer a { 
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    color: white;
+    
+    }
+footer a:hover { 
+        font-size: large;
+        color: #fc019a;
+        
+        }
+
+/*////////////////////////////////////////////////////////////*/
+@media (max-width: 1500px) and (min-width:1300px){
+
+}
+
+/*///////////////////////////////////////////////////////////*/
+
+@media (max-width: 1300px) and (min-width:1100px){
+
+   
+}
+
+/*//////////////////////////////////////////////////////////*/
+@media (max-width: 1100px) and (min-width:850px){}
+    
+@media (max-width: 850px) and (min-width:700px){ 
+
+
+}
+@media (max-width: 700px) and (min-width:500px){
+}
+    @media (max-width: 500px){}
+
