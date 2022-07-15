@@ -555,14 +555,15 @@ Footer {height: 10VH;}
 figure.effect-lily h2 {font-size: large;
     width: 50%;}
 
-nav{display: flex;
+nav{top: 88%;
+    display: flex;
     HEIGHT: 12%;
     width: 100%;
-    FLEX-FLOW: ROW-REVERSE;}
+    FLEX-FLOW: ROW-REVERSE;
+    }
 .toggle {
     width: 100%;
-    HEIGHT: 100%;
-    margin-top: 18.4%;}
+    HEIGHT: 90%;}
 .titulosmenu{width: 100%;}
 nav label {width: 20%;
           height: 100%;}
@@ -599,7 +600,8 @@ figure.effect-lily p {width: 60%;
 
 .effect-lily figcaption div span.span{width: 40%;}
 
-Footer {height: 10VH;}   
+Footer {    margin-bottom: 10VH;
+    height: 10VH;}   
 .pie9z {height: 50%;
         width: 10%;}
 .grid {display: grid;}
@@ -619,14 +621,15 @@ figure.effect-lily img {object-fit: cover;}
 figure.effect-lily h2 {font-size: large;
 width: 50%;}
 
-nav{display: flex;
-HEIGHT: 12%;
-width: 100%;
-FLEX-FLOW: ROW-REVERSE;}
+nav{top: 88%;
+    display: flex;
+    HEIGHT: 12%;
+    width: 100%;
+    FLEX-FLOW: ROW-REVERSE;
+    }
 .toggle {
     width: 100%;
-    HEIGHT: 100%;
-    margin-top: 23%;}
+    HEIGHT: 90%;}
 .titulosmenu{width: 100%;}
 nav label {width: 20%;
       height: 100%;}
@@ -664,7 +667,8 @@ figure.effect-lily p {width: 60%;
 .effect-lily figcaption div span.span{width: 40%;}
 
 Footer {DISPLAY: FLEX;
-    height: 15VH;
+    margin-bottom: 10VH;
+    height: 22VH;
     FLEX-FLOW: COLUMN;}   
 .pie9z {height: 50%;
     width: 10%;}
@@ -686,14 +690,15 @@ figure.effect-lily img {object-fit: cover;}
 figure.effect-lily h2 {font-size: large;
 width: 50%;}
 
-nav{display: flex;
-HEIGHT: 12%;
-width: 100%;
-FLEX-FLOW: ROW-REVERSE;}
+nav{top: 88%;
+    display: flex;
+    HEIGHT: 12%;
+    width: 100%;
+    FLEX-FLOW: ROW-REVERSE;
+    }
 .toggle {
     width: 100%;
-    HEIGHT: 100%;
-    margin-top: 29%;}
+    HEIGHT: 90%;}
 .titulosmenu{width: 100%;}
 nav label {width: 20%;
       height: 100%;}
@@ -731,9 +736,9 @@ figure.effect-lily p {width: 60%;
 .effect-lily figcaption div span.span{width: 40%;}
 
 Footer {DISPLAY: FLEX;
-    height: 15VH;
+    height: 25VH;
     FLEX-FLOW: COLUMN;}   
-.pie9z {height: 60%;
+.pie9z {height: 30%;
     width: 20%;}
 .grid {display: grid;}
 figure.effect-lily img {object-fit: cover;}
@@ -754,14 +759,15 @@ figure.effect-lily img {object-fit: cover;}
 figure.effect-lily h2 {font-size: large;
 width: 50%;}
 
-nav{display: flex;
-HEIGHT: 12%;
-width: 100%;
-FLEX-FLOW: ROW-REVERSE;}
+nav{top: 88%;
+    display: flex;
+    HEIGHT: 12%;
+    width: 100%;
+    FLEX-FLOW: ROW-REVERSE;
+    }
 .toggle {
     width: 100%;
-    HEIGHT: 100%;
-    margin-top: 31%;}
+    HEIGHT: 90%;}
 .titulosmenu{width: 100%;}
 nav label {width: 20%;
       height: 100%;}
@@ -799,9 +805,9 @@ figure.effect-lily p {width: 60%;
 .effect-lily figcaption div span.span{width: 40%;}
 
 Footer {DISPLAY: FLEX;
-    height: 15VH;
-    FLEX-FLOW: COLUMN;}   
-.pie9z {height: 65%;
+    height: 27VH;
+    FLEX-FLOW: COLUMN;}    
+.pie9z {height: 35%;
     width: 25%;}
 .grid {display: grid;}
 figure.effect-lily img {object-fit: cover;}
@@ -823,14 +829,15 @@ figure.effect-lily img {object-fit: cover;}
 figure.effect-lily h2 {font-size: large;
 width: 50%;}
 
-nav{display: flex;
-HEIGHT: 12%;
-width: 100%;
-FLEX-FLOW: ROW-REVERSE;}
+nav{top: 88%;
+    display: flex;
+    HEIGHT: 12%;
+    width: 100%;
+    FLEX-FLOW: ROW-REVERSE;
+    }
 .toggle {
     width: 100%;
-    HEIGHT: 100%;
-    margin-top: 46%;}
+    HEIGHT: 90%;}
 .titulosmenu{width: 100%;}
 nav label {width: 20%;
       height: 100%;}
@@ -868,9 +875,9 @@ figure.effect-lily p {width: 60%;
 .effect-lily figcaption div span.span{width: 40%;}
 
 Footer {DISPLAY: FLEX;
-    height: 15VH;
-    FLEX-FLOW: COLUMN;}   
-.pie9z {height: 67%;
+    height: 24VH;
+    FLEX-FLOW: COLUMN;}  
+.pie9z {height: 25%;
     width: 30%;}
 .grid {display: grid;}
 figure.effect-lily img {object-fit: cover;}
@@ -889,14 +896,15 @@ figure.effect-lily img {object-fit: cover;}
 figure.effect-lily h2 {font-size: large;
 width: 50%;}
 
-nav{display: flex;
-HEIGHT: 12%;
-width: 100%;
-FLEX-FLOW: ROW-REVERSE;}
+nav{top: 88%;
+    display: flex;
+    HEIGHT: 12%;
+    width: 100%;
+    FLEX-FLOW: ROW-REVERSE;
+    }
 .toggle {
-width: 100%;
-HEIGHT: 100%;
-margin-top: 63%;}
+    width: 100%;
+    HEIGHT: 90%;}
 .titulosmenu{width: 100%;}
 nav label {width: 20%;
   height: 100%;}
@@ -934,9 +942,9 @@ figure.effect-lily p {width: 60%;
 .effect-lily figcaption div span.span{width: 40%;}
 
 Footer {DISPLAY: FLEX;
-height: 15VH;
-FLEX-FLOW: COLUMN;}   
-.pie9z {height: 67%;
+    height: 24VH;
+    FLEX-FLOW: COLUMN;} 
+.pie9z {height: 27%;
     width: 31%;}
 .grid {display: grid;}
 figure.effect-lily img {object-fit: cover;}
